@@ -7,6 +7,9 @@
         <div class="container p-4">
             <div id="map"></div>
             <div id="controls-province">
+                <input type="checkbox" id="showPolygonProvince" name="displayOption" value="polygonProvince" checked>
+                <label for="showPolygonProvince">Tampilkan Provinsi</label>
+                <br>
                 <input type="checkbox" id="showWaterSource" name="displayOption" value="water">
                 <label for="showWaterSource">Mata Air</label>
                 <br>
