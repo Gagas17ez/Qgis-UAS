@@ -12,7 +12,7 @@
                 <br>
                 <input type="checkbox" id="showWaterSource" name="displayOption" value="water">
                 <span class="legend-circle water"></span>
-                <label for="showWaterSource">Mata Air</label>
+                <label for="showWaterSource">Sumber Mata Air</label>
                 <br>
                 <input type="checkbox" id="showReservoirs" name="displayOption" value="reservoirs">
                 <span class="legend-circle reservoirs"></span>
@@ -28,7 +28,7 @@
                 <br>
                 <input type="checkbox" id="showWaterDrinkSystem" name="displayOption" value="waterDrink">
                 <span class="legend-circle water-drink"></span>
-                <label for="showWaterDrinkSystem">Sistem Air Minum</label>
+                <label for="showWaterDrinkSystem">Sistem Penyediaan Air Minum</label>
             </div>
         </div>
     </div>
