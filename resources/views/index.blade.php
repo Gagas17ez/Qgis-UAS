@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/sidebar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
     <link rel="stylesheet" href="{{ asset('css/poppins.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/map.css') }}">
     {{-- leaflet --}}
     <link rel="stylesheet" href="{{ asset('css/leaflet.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -31,17 +32,13 @@
 </head>
 
 <body style="background-color: #f5f5f5">
-    <div class="row">
-        <div class="col-lg-2">
-            @include('components.sidebar')
-        </div>
-        <div class="col-lg-10">
-            <div class="main-content">
-                @yield('content')
-            </div>
-        </div>
-    </div>
 
+    @include('components.navbar')
+    
+    <div class="main-content">
+        @yield('content')
+    </div>
+        
     {{-- bootstrap --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

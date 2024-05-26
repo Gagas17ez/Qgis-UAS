@@ -6,8 +6,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
+
 #map {
     padding: 0;
     margin: 0;
@@ -21,13 +22,14 @@ body {
 
 #controls-province {
     position: absolute;
-    top: 35px;
-    right: 35px;
+    top: 265px;
+    right: 115px;
     background: white;
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 15px;
     z-index: 1000;
+    font-size: 12px;
 }
 
 .legend {

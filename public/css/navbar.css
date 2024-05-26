@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff; /* Warna latar belakang navbar */
+    color: #000000; /* Warna teks navbar */
+    padding: 30px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #000000; /* Garis bawah navbar */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000; /* Warna teks logo */
+}
+
+.logo-img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 15px;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #000000; /* Warna teks menu */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-menu li a:hover {
+    color: #787d8b; /* Warna saat hover */
+}
+
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blockquote {
+    font-style: italic;
+    font-size: 24px;
+    color: #333333;
+}
+
+.blockquote-footer {
+    font-size: 13px;
+    color: #666666;
+}
+
+.blockquote-footer cite {
+    font-style: normal;
+    font-weight: bold;
+}
